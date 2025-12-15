@@ -13,16 +13,18 @@ El proyecto consiste en implementar una clase `TiendaOnline` en Python que gesti
 
 📚 Funcionalidades principales
 La clase TiendaOnline incluye los siguientes métodos:
-    - agregar_producto(nombre, precio, cantidad) → Añade un producto nuevo o actualiza la cantidad si ya existe.
-    - ver_inventario() → Muestra todos los productos con nombre, precio y cantidad.
-    - buscar_producto(nombre) → Busca un producto por nombre y muestra sus detalles.
-    - actualizar_stock(nombre, cantidad) → Modifica la cantidad de un producto existente.
-    - eliminar_producto(nombre) → Elimina un producto del inventario.
-    - calcular_valor_inventario() → Calcula el valor total del inventario (precio × cantidad).
+- agregar_producto(nombre, precio, cantidad) → Añade un producto nuevo o actualiza la cantidad si ya existe.
+- ver_inventario() → Muestra todos los productos con nombre, precio y cantidad.
+- buscar_producto(nombre) → Busca un producto por nombre y muestra sus detalles.
+- actualizar_stock(nombre, cantidad) → Modifica la cantidad de un producto existente.
+- eliminar_producto(nombre) → Elimina un producto del inventario.
+- calcular_valor_inventario() → Calcula el valor total del inventario (precio × cantidad).
 
 
 🧾 EJEMPLO DE USO
+
 🟢 Crear instancia de la tienda
+
 ludópolis = TiendaOnline()
 ludópolis.inventario = [
     {'nombre':'Aventureros al tren', 'precio': 45.5, 'cantidad': 5},
@@ -34,27 +36,34 @@ ludópolis.ventas_totales = 0
 🟢 Agregar productos
 ludópolis.agregar_producto("Camisa", 20, 5)
 ludópolis.agregar_producto("Pantalón", 30, 3)
+
 🟢 Ver inventario
 ludópolis.ver_inventario()
+
 🟢 Buscar producto
 ludópolis.buscar_producto("juego")
+
 🟢 Actualizar stock
 ludópolis.actualizar_stock("juego", cantidad)
+
 🟢 Eliminar producto
 ludópolis.eliminar_producto("juego")
+
 🟢 Calcular valor total
 ludópolis.calcular_valor_inventario()
 
 
 🎯 Objetivo
+
 Este proyecto sirve como práctica para:
-    - Manejo de clases y objetos en Python.
-    - Uso de listas y diccionarios.
-    - Aplicación de bucles y condicionales.
-    - Buenas prácticas de programación y documentación.
+- Manejo de clases y objetos en Python.
+- Uso de listas y diccionarios.
+- Aplicación de bucles y condicionales.
+- Buenas prácticas de programación y documentación.
 
 
 📌 Notas
+
 - El repositorio incluye este README para explicar cómo arrancar y probar el proyecto.
 - La parte BONUS (gestión de clientes y compras) puede añadirse en futuras versiones.
 
