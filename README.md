@@ -26,11 +26,13 @@ La clase TiendaOnline incluye los siguientes métodos:
 🟢 Crear instancia de la tienda
 
 ludópolis = TiendaOnline()
+
 ludópolis.inventario = [
     {'nombre':'Aventureros al tren', 'precio': 45.5, 'cantidad': 5},
     {'nombre':'Genial', 'precio': 35.3, 'cantidad': 2},
     {'nombre':'Tsuro', 'precio': 41, 'cantidad': 3},
     {'nombre':'Fantasma Blitz', 'precio': 24.9, 'cantidad': 8},]
+
 ludópolis.ventas_totales = 0
 
 🟢 Agregar productos
